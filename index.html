@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Ghost V/S Pikachu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--This the backgroung of the game-->
+        <canvas id="canvasBg" width="800" height="600"></canvas>
+
+        <!--this canvas will overlap the background canvas so that all the entities
+        will be loaded on the background such as the player and the ghosts-->
+        <div id="overlapping">
+            <canvas id="canvasEntities" width="800" height="600"></canvas>
+        </div>
+
+        <!--Game logic will be inside this file-->
+        <script src="game.js"></script>
+
+
+    </body>
+</html>

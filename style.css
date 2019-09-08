@@ -1,0 +1,21 @@
+body {
+    background: #202020;
+}
+
+
+canvas {
+  /* the canvas should be displayed as a block beacuse otherwise they will not overlap */
+    display: block;
+}
+
+
+#canvasBg {
+    background: #ffffff;
+}
+
+
+#overlapping canvas {
+  /* every overlapped element has the margin of the -600px beacuse it is the height of our game
+  and if we don't do that all the entities will come below the canvas */
+    margin: -600px 0 0;
+}
