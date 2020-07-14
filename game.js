@@ -15,7 +15,7 @@ var canvasBg       = document.getElementById("canvasBg"),
     //the enemies defined are stored here in this array
     enemies = [],
     //the number of enemies is initialised
-    numEnemies = 100,
+    numEnemies = 20,
     //obstacles defined are stored here
     obstacles = [],
     //bool variable which defines the game is running or not
